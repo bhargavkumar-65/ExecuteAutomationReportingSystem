@@ -49,7 +49,7 @@ CREATE TABLE [dbo].[tblTestCycle](
 	[BuildNo] [varchar](50) NULL,
 	[ApplicationVersion] [varchar](20) NULL,
 	[DateOfExecution] [datetime] NULL,
-	[TestType] [int] NULL,
+	[TestType] [varchar](50) NULL,
 	[MachineName] [varchar](20) NULL,
 CONSTRAINT [PK__tblTestC__A34177C17F60ED59] PRIMARY KEY CLUSTERED 
 (
